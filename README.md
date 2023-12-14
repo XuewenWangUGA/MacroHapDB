@@ -16,12 +16,12 @@ Download the files from github using the following command:
 
 `git clone https://github.com/XuewenWangUGA/VarAlleleDB`
 
-Double click the `VarAlleleDB_viewer.html` to run the database.
+Double click the viewer `VarAlleleDB_viewer.html` to run the database.
 
 ## Method 2: 
 Download the database compressed files from the github page and uncompress it. 
 
-Then, double click the `VarAlleleDB_viewer.html` to run the database.
+Then, double click the viewer `VarAlleleDB_viewer.html` to run the database.
 
 # Usage
 
