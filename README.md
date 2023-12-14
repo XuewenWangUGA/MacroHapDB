@@ -35,9 +35,14 @@ Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
 
 # Example
 Here is an example for load the supper-population database.
+
 Step 1. open the database file "stitched.MH.allele_count.1KG2504.supPop.consisTag.txt"
+
 Step 2. click to choose the marker "CSF1PO" or any other marker name from the drop-down list
-the variant allele will be displayed for the selected marker as shown below.
+
+the variant allele will be displayed for the selected marker as shown in Fig1.
+
+ ![Displaying of CSF1PO variant alleles](DBdisaply.PNG) Fig1.
 
 
 
