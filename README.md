@@ -42,8 +42,8 @@ Meaning of each column:
 1. column 1 is the marker/locus name, e.g., CSF1PO
 2. column 2 is the population name, e.g., EAS
 3. column 3 is the variant allele. SNPs, InDels and STRs separated by ";"
-4. column 4 is the frequency count of this allele in the given population
-5. column 5 is the validated consistency information.T=A=S represent a consistency between three mathods.
+4. column 4 is the frequency count of this allele in the given population EAS
+5. column 5 is the validated consistency information.T=A=S represents a consistency between three mathods.
 
 
 # Example
