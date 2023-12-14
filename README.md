@@ -5,7 +5,7 @@ A Variant Allele consists of an alleic sequence at variant sites only of forensi
 
 Dataset I: 289 validated individuals; 11,560 alleles. 
 
-Dataset II: 2504 individuals; 100,160 alleles. 
+Dataset II: 2504 unrelated individuals; 100,160 alleles. 
 
 Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
