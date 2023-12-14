@@ -1,6 +1,5 @@
 # VarAlleleDB
- VarAlleleDB is $${\color{blue}The \space DataBase \space \space of \space Variant \space Alleles}$$ with haplotypic SNP, STR and InDel.
-
+ VarAlleleDB is $${\color{blue}The \space DataBase \space \space of \space Variant \space Alleles}$$
 
 A Variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project.
 
@@ -33,6 +32,14 @@ Step 2. select a marker name from drop-down list
 Step 3. the alleles for each marker will be shown up
 
 Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
+
+# Example
+Here is an example for load the supper-population database.
+Step 1. open the database file "stitched.MH.allele_count.1KG2504.supPop.consisTag.txt"
+Step 2. click to choose the marker "CSF1PO" or any other marker name from the drop-down list
+the variant allele will be displayed for the selected marker as shown below.
+
+
 
 
 
