@@ -29,7 +29,7 @@ Step 1. choose a database file: .global, pop, superPop
 
 Step 2. select a marker name from drop-down list
 
-Step 3. the alleles for each marker will be shown up
+Step 3. the alleles for selected marker will be shown up in a Tab separated text.
 
 Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
 
