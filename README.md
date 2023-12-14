@@ -1,5 +1,5 @@
 # VarAlleleDB
- The DataBase of Variant Alleles <code style="color : red">DataBase of Variant Alleles</code> with SNP, STR and InDel.
+ VarAlleleDB is $${\color{blue}The \space DataBase \space \space of \space Variant \space Alleles}$$ with haplotypic SNP, STR and InDel.
 
  $${\color{blue}DataBase \space of \space Variant \space Alleles}$$
  
