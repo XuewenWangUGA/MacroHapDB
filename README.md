@@ -1,7 +1,7 @@
 # VarAlleleDB
- The database of variant alleles with SNP, STR and InDel
+ The database of Variant Alleles with SNP, STR and InDel.
 
-A variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project.
+A Variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project.
 
 Dataset I: 289 validated individuals; 11,560 alleles. 
 
@@ -24,8 +24,14 @@ Download the database compressed files from the github page and uncompress it.
 Then, double click the `VarAlleleDB_viewer.html` to run the database.
 
 # Usage
+
 Step 1. choose a database file: .global, pop, superPop
+
 Step 2. select a marker name from drop-down list
+
 Step 3. the alleles for each marker will be shown up
+
 Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
+
+
 
