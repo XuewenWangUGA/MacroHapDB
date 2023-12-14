@@ -45,6 +45,8 @@ Meaning of each column:
 4. column 4 is the frequency count of this allele in the given population EAS
 5. column 5 is the validated consistency information.T=A=S represents a consistency between three mathods.
 
+each variant is separated by ",". The positions of each variant is provided in our Github depository https://github.com/XuewenWangUGA/VarSeqStitcher/tree/main/testData .
+
 
 # Example
 Here is an example for load the supper-population database.
