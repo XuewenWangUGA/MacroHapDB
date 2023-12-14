@@ -32,10 +32,9 @@ Step 2. select a marker name from drop-down list
 
 Step 3. the alleles for selected marker will be shown up in a Tab separated text.
 
-Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
 
 # Meaning of the columns 
-The displayed variants for each marker will have five columns, e.g., 
+The displayed alleles for each marker will have five columns, e.g., 
 
     CSF1PO	EAS	C,C,T,G,C,A,G,C,C,G,A,T,T,C,G,T,A,C,T,T,T,G,C,T,A,G,A,C,C,G,C,C,G,G,G,G,C,T,C,G,G,G,G,G;T,T,G;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT	136	T=A=S
 
@@ -58,6 +57,10 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
 
  ![Displaying of CSF1PO variant alleles](DBdisaply.PNG) Fig1.
 
+
+# Support
+
+Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
 
 
 
