@@ -1,7 +1,7 @@
 # VarAlleleDB
   $${\color{blue}VarAlleleDB \space is \space The \space DataBase \space of \space Variant \space Alleles}$$
 
-A Variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project.
+A Variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project. The coordinate position is based on HG38.
 
 Dataset I: 289 validated individuals; 11,560 alleles. 
 
@@ -45,7 +45,7 @@ Meaning of each column:
 4. column 4 is the frequency count of this allele in the given population EAS
 5. column 5 is the validated consistency information.T=A=S represents a consistency between three mathods.
 
-each variant is separated by ",". The positions of each variant is provided in our Github depository https://github.com/XuewenWangUGA/VarSeqStitcher/tree/main/testData .
+Each variant is separated by ",". The position of each variant is provided in our Github depository https://github.com/XuewenWangUGA/VarSeqStitcher/tree/main/testData .
 
 
 # Example
