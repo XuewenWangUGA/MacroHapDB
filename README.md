@@ -10,7 +10,8 @@ Dataset II: 2504 individuals; 100,160 alleles.
 Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
 # Installation
-The VarAlleleDB can be directly run and viewed in any computer after downloading. No additional installation is required once an internet browser, e.g. Chrome, IE, Edge, firefox etc., is there. 
+The VarAlleleDB can be directly run and viewed in any computer after downloading. No additional installation is required once an internet browser, e.g. Chrome, IE, Edge, firefox etc., is there. Users can use either method to install the database in a computer.
+
 ## Method 1: 
 Download the files from github using the following command:
 
