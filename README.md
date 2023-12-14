@@ -33,6 +33,19 @@ Step 3. the alleles for selected marker will be shown up in a Tab separated text
 
 Contact: Xuewen.Wang at UNTHSC.edu, August.Woerner at UNTHSC.edu
 
+# Meaning of the columns 
+The displayed variants for each marker will have five columns, e.g., 
+
+    CSF1PO	EAS	C,C,T,G,C,A,G,C,C,G,A,T,T,C,G,T,A,C,T,T,T,G,C,T,A,G,A,C,C,G,C,C,G,G,G,G,C,T,C,G,G,G,G,G;T,T,G;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT	136	T=A=S
+
+Meaning of each column:
+1. column 1 is the marker/locus name, e.g., CSF1PO
+2. column 2 is the population name, e.g., EAS
+3. column 3 is the variant allele. SNPs, InDels and STRs separated by ";"
+4. column 4 is the frequency count of this allele in the given population
+5. column 5 is the validated consistency information.T=A=S represent a consistency between three mathods.
+
+
 # Example
 Here is an example for load the supper-population database.
 
