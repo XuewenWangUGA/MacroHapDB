@@ -1,7 +1,7 @@
 # VarAlleleDB
  The DataBase of Variant Alleles <code style="color : red">DataBase of Variant Alleles</code> with SNP, STR and InDel.
 
- $${\color{red}DataBase of Variant Alleles}$$
+ $${\color{blue}DataBase \space of \space Variant \space Alleles}$$
  
 
 A Variant Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project.
