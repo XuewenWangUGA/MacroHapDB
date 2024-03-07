@@ -1,4 +1,4 @@
-# MacroHapDBB
+# MacroHapDB
   $${\color{blue}MacroHapDB \space is \space The \space DataBase \space of \space Macrohap \space Alleles}$$
 
 An Macrohap Allele consists of an alleic sequence at variant sites only of forensic CODIS STRs, SNPs and InDels. VarAlleleDB deposits alleles,cross-validated information and their frequency count in human populations. The current version includes two sets of humman samples, each with three databases at population, supperpopulation and global scale, from the 1000 genome project. The coordinate position is based on HG38.
