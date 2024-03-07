@@ -15,7 +15,7 @@ The VarAlleleDB can be directly run and viewed in any computer after downloading
 ## Method 1: 
 Download the files from github using the following command:
 
-`git clone https://github.com/XuewenWangUGA/VarAlleleDB`
+`git clone https://github.com/XuewenWangUGA/MacroHapDB`
 
 Double click the viewer `VarAlleleDB_viewer.html` in the downloaded folder to run the database.
 
