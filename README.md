@@ -17,12 +17,12 @@ Download the files from github using the following command:
 
 `git clone https://github.com/XuewenWangUGA/MacroHapDB`
 
-Double click the viewer `VarAlleleDB_viewer.html` in the downloaded folder to run the database.
+Double click the viewer `MacroHapDB_viewer.html` in the downloaded folder to run the database.
 
 ## Method 2: 
 Download the database compressed files from the github page and uncompress it. 
 
-Then, double click the viewer `VarAlleleDB_viewer.html` in the downloaded folder to run the database.
+Then, double click the viewer `MacroHapDB_viewer.html` in the downloaded folder to run the database.
 
 # Usage
 
