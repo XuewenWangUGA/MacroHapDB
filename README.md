@@ -59,6 +59,46 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
 
  ![Displaying of CSF1PO variant alleles](DBdisaply.PNG) Fig1.
 
+# util tools
+Additional tools for processing and using the database.
+
+## freqBasedAllelePicker.py
+
+A python tool to generate macrohaps for in silico man with the MacrohapDB alleles. The output is the MH alleles for the in silico man in evidence MH format and suspected MH format. 
+`python freqBasedAllelePicker.py -i MHtest2000.txt  -o MH_inSilicoMan`
+  Input libray file is:   MHtest2000.txt
+  Number of simulated DNA contributors:    1
+  prefix of Output files:  MH_inSilicoMan
+
+  This is in silico Macrohap alleles maker
+  Results:
+  MH allele in evidence format:   MH_inSilicoMan.MH.tsv
+  MH allele in suspect format:    MH_inSilicoMan.MHs.tsv
+
+
+
+### Usage: python freqBasedAllelePicker.py [options]
+Download the tool and the test data from Util folder and then run the following command: 
+` python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan `
+
+e.g., python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan
+Options:
+        -h, --help: show this help message and exit
+        -i, --input: a required file of macrohap database
+                #database format (tab separated):
+                CSF1PO  EAS     C,C,T,G,C,A,G;;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT 29      T=A=S
+                CSF1PO  EAS     C,C,T,G,C,A,G;;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT     28      T=A=S
+        -m, --mix: integer >=1, the number of individuals in simulated DNA evidenced mixture, default 1
+        -o, --out, prefix of file name. Results are the tab delimited allele data in evidence and suspect format.
+                #suspect format (tab separated):
+                TH01    C,C,T,T,G,T,C,G,G,G,C,C;G;AATGAATGAATGAATGAATGAATGAATG  1
+                TH01    C,T,C,T,G,T,G,G,G,G,A,C;G;AATGAATGAATGAATGAATGAATG      1
+                TPOX    C,G,A,T,G,C,C,G,C,G,A,C,C,C,G,G,A,G;G;AATGAATGAATGAATGAATGAATGAATGAATG  2
+                #Evidence format: similar to suspect format but no the 3rd column
+Version: 1.0.0, Mar,18th,2024
+
+
+
 
 # Support
 
