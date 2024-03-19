@@ -114,7 +114,8 @@ Download the tool and the test data from Util folder and then run the following 
                     
     Version: 1.0.0, Mar,18th,2024
 
-
+# Funding
+This work was sponsored in part by award 15PNIJ-21-GG-04159-RESS, awarded by the National Institute of Justice, Office of Justice Programs, U.S. Department of Justice.
 
 
 # Support
