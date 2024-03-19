@@ -69,14 +69,14 @@ A python tool to generate macrohaps for an in silico man with the MacrohapDB all
 example:
 `python freqBasedAllelePicker.py -i MHtest2000.txt  -o MH_inSilicoMan`
 
-      `Input libray file is:   MHtest2000.txt
+      Input libray file is:   MHtest2000.txt
       Number of simulated DNA contributors:    1
       prefix of Output files:  MH_inSilicoMan
 
       This is in silico Macrohap alleles maker
       Results:
       MH allele in evidence format:   MH_inSilicoMan.MH.tsv
-      MH allele in suspect format:    MH_inSilicoMan.MHs.tsv`
+      MH allele in suspect format:    MH_inSilicoMan.MHs.tsv
 
 
 
@@ -86,7 +86,7 @@ Download the tool and the test data from Util folder and then run the following 
 
 e.g., python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan
 
-`Options:
+Options:
             -h, --help: show this help message and exit
             -i, --input: a required file of macrohap database
                         #database format (tab separated):
@@ -99,7 +99,7 @@ e.g., python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan
                     TH01    C,T,C,T,G,T,G,G,G,G,A,C;G;AATGAATGAATGAATGAATGAATG      1
                     TPOX    C,G,A,T,G,C,C,G,C,G,A,C,C,C,G,G,A,G;G;AATGAATGAATGAATGAATGAATGAATGAATG  2
                     #Evidence format: similar to suspect format but no the 3rd column
-    Version: 1.0.0, Mar,18th,2024`
+    Version: 1.0.0, Mar,18th,2024
 
 
 
