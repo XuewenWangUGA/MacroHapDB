@@ -73,7 +73,7 @@ if __name__=='__main__':
     hapLibrary="MHtest2000.txt" # Replace with the actual file path
     nmix=1
     outfilePrefix= "MH_inSilicoMan" #prefix of outfiles
-    hapLibrary,nmix,outEvidencefile= xpar(sys.argv[1:])
+    hapLibrary,nmix,outfilePrefix= xpar(sys.argv[1:])
 
     OutMhEviden=open(outfilePrefix+"MH.tsv","wt")
     OutMhsuspect = open(outfilePrefix+".MHs.tsv", "wt")
