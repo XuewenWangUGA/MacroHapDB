@@ -59,7 +59,7 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
 
  ![Displaying of CSF1PO variant alleles](DBdisaply.PNG) Fig1.
 
-# util tools
+# Util tools
 Additional tools for processing and using the database.
 
 ## freqBasedAllelePicker
@@ -85,7 +85,8 @@ Download the tool and the test data from Util folder and then run the following 
 ` python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan `
 
 e.g., python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan
-Options:
+
+`Options:
             -h, --help: show this help message and exit
             -i, --input: a required file of macrohap database
                         #database format (tab separated):
@@ -98,7 +99,7 @@ Options:
                     TH01    C,T,C,T,G,T,G,G,G,G,A,C;G;AATGAATGAATGAATGAATGAATG      1
                     TPOX    C,G,A,T,G,C,C,G,C,G,A,C,C,C,G,G,A,G;G;AATGAATGAATGAATGAATGAATGAATGAATG  2
                     #Evidence format: similar to suspect format but no the 3rd column
-    Version: 1.0.0, Mar,18th,2024
+    Version: 1.0.0, Mar,18th,2024`
 
 
 
