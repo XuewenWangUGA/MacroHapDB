@@ -82,11 +82,11 @@ example:
 
 ### Usage: python freqBasedAllelePicker.py [options]
 Download the tool and the test data from Util folder and then run the following command: 
+
 ` python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan `
 
-e.g., python freqBasedAllelePicker.py -i MHtest2000.txt -m 1 -o MH_inSilicoMan
 
-Options:
+  Options:
             -h, --help: show this help message and exit
             -i, --input: a required file of macrohap database
                         #database format (tab separated):
