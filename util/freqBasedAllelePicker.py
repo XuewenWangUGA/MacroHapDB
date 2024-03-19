@@ -75,7 +75,7 @@ if __name__=='__main__':
     outfilePrefix= "MH_inSilicoMan" #prefix of outfiles
     hapLibrary,nmix,outfilePrefix= xpar(sys.argv[1:])
 
-    OutMhEviden=open(outfilePrefix+"MH.tsv","wt")
+    OutMhEviden=open(outfilePrefix+".MH.tsv","wt")
     OutMhsuspect = open(outfilePrefix+".MHs.tsv", "wt")
 
 
