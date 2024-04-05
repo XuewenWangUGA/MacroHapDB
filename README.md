@@ -121,17 +121,18 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
 
 
 ### Example 2: 
-Search for the TPOX locus with count great than or equal to 10 for Europians, show the top 2 records.
+Search for the MH alleles if TPOX locus with count great than or equal to 10 for Europians, show the top 2 records.
 
-`mysql> SELECT * FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
+`mysql> SELECT macrohap FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
 
-    +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
-    | locus | population | macrohap                                                                                                                                                                                                                   | count | consistency |
-    +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
-    | TPOX  | EUR        | A,G,G,A,T,C,G,A,A,T,T,T,A,T,T,G,A,G,G,C,C,C,T,C,G,G,C,T,T,A,G,C,T,G,C,T,C,A,G,C,A,T,T,G,G,C,A,A,C,C,T,G,G,A,A,C,G,G,C,C,G,A,T,G,C,C,G,C,G,A,C,C,C,G,G,A,G,A,G,A,T,A,C,C;C,TAGTGGGG,CAGG,G;AATGAATGAATGAATGAATGAATGAATGAATG |    22 | T=A=S       |
-    | TPOX  | EUR        | A,G,G,A,T,C,G,A,A,T,T,T,A,T,T,G,C,G,G,C,C,C,T,C,G,G,C,T,T,A,G,C,T,G,C,T,C,A,G,C,A,T,T,G,G,C,A,A,C,C,T,G,G,A,A,C,G,G,C,C,C,A,T,G,C,C,G,C,A,A,C,C,C,G,G,A,G,A,G,A,T,A,C,C;C,TAGTGGGG,CAGG,G;AATGAATGAATGAATGAATGAATGAATGAATG |    13 | T=A=S       |
-    +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
+    +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | macrohap                                                                                                                                                                                                                   |
+    +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+    | A,G,G,A,T,C,G,A,A,T,T,T,A,T,T,G,A,G,G,C,C,C,T,C,G,G,C,T,T,A,G,C,T,G,C,T,C,A,G,C,A,T,T,G,G,C,A,A,C,C,T,G,G,A,A,C,G,G,C,C,G,A,T,G,C,C,G,C,G,A,C,C,C,G,G,A,G,A,G,A,T,A,C,C;C,TAGTGGGG,CAGG,G;AATGAATGAATGAATGAATGAATGAATGAATG |
+    | A,G,G,A,T,C,G,A,A,T,T,T,A,T,T,G,C,G,G,C,C,C,T,C,G,G,C,T,T,A,G,C,T,G,C,T,C,A,G,C,A,T,T,G,G,C,A,A,C,C,T,G,G,A,A,C,G,G,C,C,C,A,T,G,C,C,G,C,A,A,C,C,C,G,G,A,G,A,G,A,T,A,C,C;C,TAGTGGGG,CAGG,G;AATGAATGAATGAATGAATGAATGAATGAATG |
+    +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     2 rows in set (0.01 sec)
+
 
 Total count of alleles passed a threshold:
 
