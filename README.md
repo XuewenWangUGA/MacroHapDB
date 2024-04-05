@@ -17,7 +17,7 @@ Either database works. For advanced users, the SQL version is recommended.
    This type of database is in TAB separated text files and can be searched and viewed in the Internet browser using the tool provided here. 
 
 ## Type B
-  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacroHapDB database contains all the files in text format in github, and additional allelels. They are a serial of short MH derived from the full-length macrohap dataset. The each subset MacroHapDB from 289 validated humans are in an separate table in the database named as:
+  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacroHapDB database contain all the files in text format in github, and additional alleles. They are a serial of short MH derived from the full-length macrohap dataset. Each subset MacroHapDB from 289 validated humans are in an separate table in the database named as:
 
   MH289supPop_300
   
