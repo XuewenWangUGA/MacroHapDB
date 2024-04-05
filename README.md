@@ -17,7 +17,7 @@ Either database works. For advanced users, the SQL version is recommended.
    This type of database is in TAB separated text files and can be searched and viewed in the Internet browser using the tool provided here. 
 
 ## Type B
-  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacroHapDB database contains all the files in text format in github, and a serial of short MH derived from the full-length macrohap dataset. The each subset MacroHapDB from 289 validated humans are in an separate table in the database named as:
+  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacroHapDB database contains all the files in text format in github, and additional allelels. They are a serial of short MH derived from the full-length macrohap dataset. The each subset MacroHapDB from 289 validated humans are in an separate table in the database named as:
 
   MH289supPop_300
   
@@ -132,7 +132,7 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
     +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
     2 rows in set (0.01 sec)
 
-Total count of alleles pass athreshold:
+Total count of alleles pass a threshold:
 
  `mysql> SELECT COUNT(count) FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 ;`
  
