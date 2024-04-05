@@ -132,7 +132,7 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
     +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
     2 rows in set (0.01 sec)
 
-Total count of alleles pass a threshold:
+Total count of alleles passed a threshold:
 
  `mysql> SELECT COUNT(count) FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 ;`
  
