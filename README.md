@@ -120,7 +120,8 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
     2 rows in set (0.00 sec)
 
 
-### Example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output the top 2 records
+### Example 2: 
+Search for the TPOX locus with count great than or equal to 10 for Europians, show the top 2 records.
 
 `mysql> SELECT * FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
 
