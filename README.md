@@ -66,7 +66,7 @@ Download the database compressed files from the github page and uncompress it.
 
 Then, double click the viewer `MacroHapDB_viewer.html` in the downloaded folder to run the database.
 
-# Usage for the browser based database .html
+# Usage for the browser based database .html (Type A)
 
 Step 1. choose a database file: .global, pop, superPop
 
@@ -104,7 +104,7 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
 
  # Usage for SQL based database (Type B)
  
- ### example 1: 
+ ### Example 1: 
   Command in mysql terminal: `mysql> USE MacroHapDB`
 
   check the data example
@@ -120,7 +120,7 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
     2 rows in set (0.00 sec)
 
 
-### example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output the top 2 records
+### Example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output the top 2 records
 
 `mysql> SELECT * FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
 
@@ -132,9 +132,9 @@ the variant allele will be displayed for the selected marker as shown in Fig1.
     +-------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
     2 rows in set (0.01 sec)
 
+Total count of alleles pass athreshold:
 
-
- `mysql> SELECT COUNT(count) FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
+ `mysql> SELECT COUNT(count) FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 ;`
  
     +--------------+
     | COUNT(count) |
