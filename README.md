@@ -49,8 +49,11 @@ Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GB
  usage: SQL command to search and manipulate.
  
  ### example 1: 
+  `mysql> USE MacrohapDB`
 
- `mysql> SELECT * FROM mh289full LIMIT 2;`
+  check the data example
+  
+ `mysql> SELECT * FROM mh289full LIMIT 2;`  
  
     +--------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
     | locus  | population | macrohap                                                                                                                                        | count | consistency |
@@ -61,7 +64,7 @@ Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GB
     2 rows in set (0.00 sec)
 
 
-### example 2: for Europians, search for the TPOX locus with count great than or equal to 10
+### example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output top 2 records
 
 `mysql> SELECT * FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
 
