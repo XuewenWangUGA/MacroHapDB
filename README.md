@@ -11,11 +11,13 @@ Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GB
 
 # Two types of database format
 
+Either database works. For advanced users, the SQL version is recommended.
+
 ## Type A
    This type of database is in TAB separated text files and can be searched and viewed in the Internet browser using the tool provided here. 
 
 ## Type B
-  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacrohapDB database contains all the files in text format in github, and a serial of short MH derived from the full-length macrohap dataset. The each subset MacrohapDB from 289 validated humans are in an separate table in the database named as:
+  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacroHapDB database contains all the files in text format in github, and a serial of short MH derived from the full-length macrohap dataset. The each subset MacroHapDB from 289 validated humans are in an separate table in the database named as:
 
   MH289supPop_300
   
@@ -43,13 +45,13 @@ Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GB
 
  There are five columns in each table. The column names  ['locus', 'population', 'macrohap', 'count', 'consistency']
 
- The SQL database MacrohapDB.sql is available on request.
+ The SQL database MacroHapDB.sql is available on request.
  
 
  usage: SQL command to search and manipulate.
  
  ### example 1: 
-  `mysql> USE MacrohapDB`
+  `mysql> USE MacroHapDB`
 
   check the data example
   
