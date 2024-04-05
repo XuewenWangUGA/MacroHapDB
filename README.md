@@ -9,6 +9,47 @@ Dataset II: 2504 unrelated individuals; 100,160 alleles.
 
 Both have 26 populations (FIN,CDX,IBS,MXL,CHB,CHS,CEU,JPT,ESN,KHV,TSI,CLM,YRI,GBR,PEL,STU,BEB,GIH,PJL,MSL,ITU,GWD,LWK,ASW,PUR,ACB), 5 supperpopulations (EAS, EUR, AFR,SAS, AMR).
 
+# Two types of data format
+
+## type A
+   This type of database is in TAB separated text files and can be searched and viewed in the Internet browser using the tool provided here. 
+
+## type B
+  This type database is in SQL format, which can be searched and used via SQL command. The tables in this MacrohapDB database contains all the files in text format in github, and a serial of short MH derived from the full-length macrohap dataset. The each subset MacrohapDB from 289 validated humans are in an separate table in the database named as:
+
+  MH289supPop_300
+  MH289supPop_500
+  MH289supPop_1000
+  MH289supPop_1500
+  MH289supPop_2000
+  MH289supPop_3000
+  MH289supPop_4000
+  MH289supPop_5000
+  MH289supPop_6000
+  MH289supPop_7000
+  MH289supPop_8000
+  mh289full
+
+ There are five columns in each table. The column names  ['locus', 'population', 'macrohap', 'count', 'consistency']
+
+ usage: SQL command
+
+ example
+
+ `mysql> SELECT * FROM mh289full LIMIT 2;`
+  +--------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
+  | locus  | population | macrohap                                                                                                                                        | count | consistency |
+  +--------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
+  | CSF1PO | EAS        | C,C,T,G,C,A,G,C,C,G,A,T,T,C,G,T,A,C,T,T,T,G,C,T,A,G,A,C,C,G,C,C,G,G,G,G,C,T,C,G,G,G,G,G;T,T,G;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT          |    17 | T=A=S       |
+  | CSF1PO | EAS        | C,C,T,A,C,G,G,C,C,C,A,T,T,C,G,T,A,C,T,T,T,G,C,T,G,A,A,C,C,G,C,C,G,G,G,G,C,T,T,C,G,A,G,G;T,T,GT;ATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCTATCT |    12 | T=A=S       |
+  +--------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
+  2 rows in set (0.00 sec)
+
+
+ 
+
+  
+
 # Installation
 The VarAlleleDB can be directly run and viewed in any computer after downloading. No additional installation is required once an internet browser, e.g. Chrome, IE, Edge, firefox etc., is there. Users can use either method to install the database in a computer.
 
