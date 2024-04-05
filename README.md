@@ -134,7 +134,7 @@ Search for the MH alleles if TPOX locus with count great than or equal to 10 for
     2 rows in set (0.01 sec)
 
 
-Total count of alleles passed a threshold:
+Total count of unique MH alleles passed a threshold:
 
  `mysql> SELECT COUNT(count) FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 ;`
  
