@@ -51,11 +51,11 @@ Either database works. For advanced users, the SQL version is recommended.
  usage: SQL command to search and manipulate.
  
  ### example 1: 
-  `mysql> USE MacroHapDB`
+  Command in mysql terminal: `mysql> USE MacroHapDB`
 
   check the data example
   
- `mysql> SELECT * FROM mh289full LIMIT 2;`  
+ Command: `mysql> SELECT * FROM mh289full LIMIT 2;`  
  
     +--------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------+-------------+
     | locus  | population | macrohap                                                                                                                                        | count | consistency |
@@ -66,7 +66,7 @@ Either database works. For advanced users, the SQL version is recommended.
     2 rows in set (0.00 sec)
 
 
-### example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output top 2 records
+### example 2: for Europians, search for the TPOX locus with count great than or equal to 10, output the top 2 records
 
 `mysql> SELECT * FROM mh289full WHERE locus='TPOX' AND population='EUR' AND count >=10 LIMIT 2;`
 
